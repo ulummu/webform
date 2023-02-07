@@ -353,6 +353,11 @@ export default function CardForm(props) {
                       Silakan Pilih Tema
                     </option>
                     <option value="Tema 01">Tema 01</option>
+                    <option value="Tema 02">Tema 02</option>
+                    <option value="Tema 03">Tema 03</option>
+                    <option value="Tema 04">Tema 04</option>
+                    <option value="Tema AG">Tema AG</option>
+                    <option value="Tema AF">Tema AF</option>
                     <option value="Tema AE">Tema AE</option>
                     <option value="Tema AD">Tema AD</option>
                     <option value="Tema AC">Tema AC</option>
