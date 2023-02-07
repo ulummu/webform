@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/webform/static/css/main.3a1bbe02.css",
-    "main.js": "/webform/static/js/main.4e2dc34f.js",
-    "static/media/bootstrap-icons.woff?": "/webform/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
-    "static/media/bootstrap-icons.woff2?": "/webform/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
-    "static/media/logo.png": "/webform/static/media/logo.9b82798ec2ffe923f745.png",
-    "index.html": "/webform/index.html",
-    "main.3a1bbe02.css.map": "/webform/static/css/main.3a1bbe02.css.map",
-    "main.4e2dc34f.js.map": "/webform/static/js/main.4e2dc34f.js.map"
+    "main.css": "/static/css/main.314bbcc9.css",
+    "main.js": "/static/js/main.bb761766.js",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "static/media/logo.png": "/static/media/logo.9b82798ec2ffe923f745.png",
+    "index.html": "/index.html",
+    "main.314bbcc9.css.map": "/static/css/main.314bbcc9.css.map",
+    "main.bb761766.js.map": "/static/js/main.bb761766.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a1bbe02.css",
-    "static/js/main.4e2dc34f.js"
+    "static/css/main.314bbcc9.css",
+    "static/js/main.bb761766.js"
   ]
 }
