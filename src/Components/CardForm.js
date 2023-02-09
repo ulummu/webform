@@ -376,22 +376,22 @@ export default function CardForm(props) {
                     <option value="" disabled hidden>
                       Silakan Pilih Tema
                     </option>
-                    <option value="Tema 01">Tema 01</option>
-                    <option value="Tema 02">Tema 02</option>
-                    <option value="Tema 03">Tema 03</option>
-                    <option value="Tema 04">Tema 04</option>
-                    <option value="Tema AG">Tema AG</option>
-                    <option value="Tema AF">Tema AF</option>
-                    <option value="Tema AE">Tema AE</option>
-                    <option value="Tema AD">Tema AD</option>
-                    <option value="Tema AC">Tema AC</option>
-                    <option value="Tema AA">Tema AA</option>
                     <option value="Tema P">Tema P</option>
                     <option value="Tema Q">Tema Q</option>
                     <option value="Tema W">Tema W</option>
                     <option value="Tema X">Tema X</option>
                     <option value="Tema Y">Tema Y</option>
                     <option value="Tema Z">Tema Z</option>
+                    <option value="Tema AA">Tema AA</option>
+                    <option value="Tema AC">Tema AC</option>
+                    <option value="Tema AD">Tema AD</option>
+                    <option value="Tema AE">Tema AE</option>
+                    <option value="Tema AF">Tema AF</option>
+                    <option value="Tema AG">Tema AG</option>
+                    <option value="Tema 01">Tema 01</option>
+                    <option value="Tema 02">Tema 02</option>
+                    <option value="Tema 03">Tema 03</option>
+                    <option value="Tema 04">Tema 04</option>
                     <option value="Tema Jawa">Tema Jawa</option>
                     <option value="Tema Minang">Tema Minang</option>
                     <option value="Tema Aqiqah">Tema Aqiqah</option>
@@ -456,6 +456,17 @@ export default function CardForm(props) {
                   <Form.Control.Feedback type="invalid">
                     Pakai Filter Belum Dipilih
                   </Form.Control.Feedback>
+                  <Form.Label className="labelTutor">
+                    Contoh Filter bisa dilihat{" "}
+                    <a
+                      className="tutor"
+                      href="https://www.youtube.com/watch?v=07ihVwltHvQ"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Disini
+                    </a>
+                  </Form.Label>
                 </Form.Group>
                 {visibleFilter && (
                   <Form.Group>
@@ -515,17 +526,6 @@ export default function CardForm(props) {
                       <Form.Control.Feedback type="invalid">
                         Filter Belum Dipilih
                       </Form.Control.Feedback>
-                      <Form.Label className="labelTutor">
-                        Contoh Filter bisa dilihat{" "}
-                        <a
-                          className="tutor"
-                          href="https://www.youtube.com/watch?v=07ihVwltHvQ"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          Disini
-                        </a>
-                      </Form.Label>
                     </Form.Group>
 
                     <Form.Group>
