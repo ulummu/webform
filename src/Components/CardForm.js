@@ -105,7 +105,7 @@ export default function CardForm(props) {
           values.bahasa +
           "%0a%0a3. Paket Undangan Web : " +
           values.paket +
-          "%0a%0a4. Pakai Filter : " +
+          "%0a%0a4. Filter Instagram : " +
           values.pakaiFilter +
           filter +
           "%0a%0a5. Penggunaan Foto : " +
@@ -198,7 +198,7 @@ export default function CardForm(props) {
           values.bahasa +
           "%0a%0a3. Paket Undangan Web : " +
           values.paket +
-          "%0a%0a4. Pakai Filter : " +
+          "%0a%0a4. Filter Instagram: " +
           values.pakaiFilter +
           filter +
           "%0a%0a5. Penggunaan Foto : " +
@@ -327,7 +327,7 @@ export default function CardForm(props) {
     }
     if (!!values.filterig) {
       setFilter(
-        "%0a-Filter Instagram : " +
+        "%0a-Tema Filter Instagram : " +
           values.filterig +
           "%0a-Frame : " +
           values.frame
@@ -440,7 +440,7 @@ export default function CardForm(props) {
                   </Form.Control.Feedback>
                 </Form.Group>
                 <Form.Group>
-                  <Form.Label>Pakai Filter Instagram</Form.Label>
+                  <Form.Label>Filter Instagram</Form.Label>
                   <Form.Select
                     name="pakaiFilter"
                     value={values.pakaiFilter}
@@ -454,7 +454,7 @@ export default function CardForm(props) {
                     <option value="Tidak">Tidak</option>
                   </Form.Select>
                   <Form.Control.Feedback type="invalid">
-                    Pakai Filter Belum Dipilih
+                    Filter Belum Dipilih
                   </Form.Control.Feedback>
                   <Form.Label className="labelTutor">
                     Contoh Filter bisa dilihat{" "}
@@ -472,7 +472,7 @@ export default function CardForm(props) {
                   <Form.Group>
                     <Form.Group className="mt-1">
                       <Form.Label className="labelForm">
-                        Filter Instagram
+                        Tema Filter Instagram
                       </Form.Label>
                       <Form.Select
                         name="filterig"
@@ -482,27 +482,6 @@ export default function CardForm(props) {
                       >
                         <option value="" hidden>
                           Silakan Pilih Filter
-                        </option>
-                        <option value="Filter Wedding 01">
-                          Filter Wedding 01
-                        </option>
-                        <option value="Filter Wedding 02">
-                          Filter Wedding 02
-                        </option>
-                        <option value="Filter Wedding Jawa">
-                          Filter Wedding Jawa
-                        </option>
-                        <option value="Filter Wedding AA">
-                          Filter Wedding AA
-                        </option>
-                        <option value="Filter Wedding AC">
-                          Filter Wedding AC
-                        </option>
-                        <option value="Filter Wedding AD">
-                          Filter Wedding AD
-                        </option>
-                        <option value="Filter Wedding AE">
-                          Filter Wedding AE
                         </option>
                         <option value="Filter Wedding P">
                           Filter Wedding P
@@ -521,6 +500,27 @@ export default function CardForm(props) {
                         </option>
                         <option value="Filter Wedding Z">
                           Filter Wedding Z
+                        </option>
+                        <option value="Filter Wedding AA">
+                          Filter Wedding AA
+                        </option>
+                        <option value="Filter Wedding AC">
+                          Filter Wedding AC
+                        </option>
+                        <option value="Filter Wedding AD">
+                          Filter Wedding AD
+                        </option>
+                        <option value="Filter Wedding AE">
+                          Filter Wedding AE
+                        </option>
+                        <option value="Filter Wedding 01">
+                          Filter Wedding 01
+                        </option>
+                        <option value="Filter Wedding 02">
+                          Filter Wedding 02
+                        </option>
+                        <option value="Filter Wedding Jawa">
+                          Filter Wedding Jawa
                         </option>
                       </Form.Select>
                       <Form.Control.Feedback type="invalid">
